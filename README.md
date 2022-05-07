@@ -1,35 +1,28 @@
-# Getting Started with Create React App
+# Distance Matrix Routing in React 
 
-This project is a simple distance matrix routing app. Reference: Code with Ania Kubow (https://www.youtube.com/watch?v=43jfFU4FJZo&t=748s)
+This project is a simple distance matrix routing app built on ReactJS. It uses the Tomtom API for mapping and getting information on possible paths and shortest routes.  
+
+
+## Run App in Local
+
+The app requires your machine to have Node installed. 
+
+
+```
+git clone https://github.com/samsonharveyy/Distance-Matrix-Routing-React-App.git
+```
+
+Go to the directory of the cloned repository and 
+
+```
+npm start
+```
+
+To gain access to the Tomtom API, please go through their website to get your own unique API key at https://developer.tomtom.com/.
 
 ## Sample Output 
 [![Screenshot-541.png](https://i.postimg.cc/nLfkdswF/Screenshot-541.png)](https://postimg.cc/xXgM8d2h)
 
-
-### Available Scripts
-
-In the project directory, you can run:
-
-#### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-#### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-#### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
+## References
+* [Codealong Video Tutorial](https://www.youtube.com/watch?v=43jfFU4FJZo&t=748s)
+* [Tomtom Maps SDK](https://developer.tomtom.com/maps-sdk-web-js/documentation)
